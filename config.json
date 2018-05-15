@@ -1,0 +1,29 @@
+{
+	"project" : {
+		"slug" : "hc-privacy-compactor",
+		"zip"  : "hc-privacy-compactor.zip"
+	},
+	"dev" : {
+		"proxy" : "http://testsite.local/",
+		"destination" : "test_location/",
+		"destination2" : "build/"
+	},
+	"paths" : {
+		"watch"      : {
+			"css" : [
+				"assets/css/**/*.scss"
+			]
+		},
+		"css"        : [
+			"assets/css/style.scss"
+		],
+		"javascript" : {
+			"frontend" : [
+				"assets/js/frontend/**/*.js"
+			],
+			"backend" : [
+				"assets/js/backend/**/*.js"
+			]
+		}
+	}
+}

@@ -1,0 +1,9 @@
+.idea/
+aXeReports/
+test_location/
+build/
+node_modules/
+composer.lock
+npm-debug.log
+vendor/
+*.zip

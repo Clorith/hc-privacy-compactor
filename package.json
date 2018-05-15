@@ -1,0 +1,52 @@
+{
+	"name": "cleanTemplate",
+	"title": "cleanTemplate",
+	"version": "0.0.1",
+	"description": "Simple and clean template structure",
+	"keywords": [
+		"WordPress",
+		"underscores"
+	],
+	"license": "GPL-2.0+",
+	"main": "gulpfile.js",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"devDependencies": {
+		"browser-sync": "^2.18.12",
+		"del": "^2.2.2",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^3.1.0",
+		"gulp-axe-core": "latest",
+		"gulp-babel": "^6.1.2",
+		"gulp-clean-css": "^3.0.4",
+		"gulp-concat": "^2.6.1",
+		"gulp-flatten": "^0.2.0",
+		"gulp-if": "^2.0.0",
+		"gulp-jshint": "^2.0.0",
+		"gulp-load-plugins": "^1.5.0",
+		"gulp-notify": "^2.2.0",
+		"gulp-phpcbf": "latest",
+		"gulp-phpcs": "^1.0.0",
+		"gulp-plumber": "^1.0.1",
+		"gulp-sass": "^2.1.0",
+		"gulp-sourcemaps": "^1.12.0",
+		"gulp-uglify": "^1.5.4",
+		"gulp-uncss": "^1.0.4",
+		"gulp-util": "^3.0.7",
+		"gulp-zip": "^3.0.2",
+		"jshint": "^2.8.0",
+		"merge-stream": "^1.0.1",
+		"motion-ui": "^1.1.0",
+		"pump": "^1.0.2",
+		"run-sequence": "^1.2.2",
+		"yargs": "^3.32.0",
+		"stylelint": "~7.10.1",
+		"stylelint-config-wordpress": "~11.0.0"
+	},
+	"scripts": {
+		"build": "gulp build",
+		"postinstall": "gulp build"
+	}
+}
