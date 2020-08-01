@@ -1,7 +1,7 @@
 === Compact Privacy Pages ===
 Contributors: Clorith
 Requires at least: 4.6
-Tested up to: 4.9
+Tested up to: 5.5
 Stable tag: 1.1.0
 
 == Description ==
